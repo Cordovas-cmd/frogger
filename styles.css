@@ -18,3 +18,10 @@
 .starting-block {
     background-color: blue;
 }
+.log-left, .log-right {
+background-color: lightseagreen;
+}
+
+.car-left, .car-right {
+    background-color: lightslategray;
+}
