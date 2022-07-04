@@ -9,26 +9,37 @@ const width = 9;
 
 // move frog using event 
 function moveFrog(e) {
+
+    squares[currentIndex].classList.remove('frog');
+
+    // modulus operator.
     switch(e.key) {
 
         case 'ArrowLeft' :
             console.log('Move left')
-            currentIndex -= 1;
+            console.log(currentIndex)
+            if (currentIndex % width !== 0)currentIndex -= 1;
             break;
 
         case 'ArrowRight' :
             console.log('Move right')
-            currentIndex += 1;
+            console.log(currentIndex)
+
+            if (currentIndex % width < width -1) currentIndex += 1;
             break;
 
         case 'ArrowUp' :
             console.log('Move up')
-            currentIndex -= width 
+            console.log(currentIndex)
+
+            if(currentIndex -width >= 0 )currentIndex -= width 
             break;
 
         case 'ArrowDown' :
             console.log('Move down')
-            currentIndex += width
+            console.log(currentIndex)
+
+            if (currentIndex + width < width * width) currentIndex += width
             break;
     }
 squares[currentIndex].classList.add('frog');
