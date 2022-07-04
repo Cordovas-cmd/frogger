@@ -18,13 +18,9 @@
 .starting-block {
     background-color: blue;
 }
-/* .log-left, .log-right {
-background-color: lightseagreen;
-} */
 
-.car-left, .car-right {
-    background-color: lightslategray;
-}
+
+
 .frog {
     background-color: green;
 }
@@ -35,4 +31,10 @@ background-color: lightseagreen;
 
 .l4, .l5 {
     background-color: lightseagreen;
+}
+.c1 {
+    background-color: black;
+}
+.c2, .c3 {
+    background-color: lightslategray;
 }
