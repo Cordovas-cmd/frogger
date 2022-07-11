@@ -199,3 +199,17 @@ startPauseButton.addEventListener('click', () => {
         document.addEventListener('keyup', moveFrog)
     }
 })
+
+
+// want to add an animated frog
+// want to make a sprite for cars
+
+//want to animate logs and water
+
+// add levels with increasing grid size and more obstacles
+
+// need to make and add music
+
+// background and colorscheme.
+
+// make mobiel friendly.
